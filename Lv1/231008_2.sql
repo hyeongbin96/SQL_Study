@@ -1,0 +1,8 @@
+SELECT NAME, DATETIME
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID DESC;
+
+### 
+ORDER BY 의 기본 값은 ASC
+DESC = 내림차순(9.8.7.6...)
+ASC = 오름차순(1,2,3,4...)
