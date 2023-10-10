@@ -17,6 +17,7 @@ WHERE EXISTS
         WHERE I.FLAVOR = F.FLAVOR AND F.TOTAL_ORDER > 3000 AND I.INGREDIENT_TYPE = 'fruit_based'
         ORDER BY F.TOTAL_ORDER DESC
       )
+      
 ###
 서브 결과에 FLAVOR는 다수개니 AND FLAVOR = 이 아닌 IN
 SELECT A.칼럼
