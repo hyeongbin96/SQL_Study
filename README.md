@@ -25,8 +25,8 @@
 |23-10-09|X|SELECT|흉부외과 또는 일반외과 의사 목록 출력하기|mysql|DATE_FORMAT|
 |23-10-09|O|SELECT|인기있는 아이스크림|mysql|
 |23-10-09|X|SELECT|과일로 만든 아이스크림 고르기|mysql|서브 쿼리, INNER JOIN|
-|23-10-10|X|SELECT|조건에 맞는 도서 리스트 출력하기|mysql||
-|23-10-10|X|SELECT|평균 일일 대여 요금 구하기|mysql||
-|23-10-10|X|STRING, DATE|자동차 대여 기록에서 장기/단기 대여 구분하기|mysql||
-|23-10-10|X|STRING, DATE|특정 옵션이 포함된 자동차 리스트 구하기|mysql||
-|23-10-10|X|SELECT|조건에 부합하는 중고거래 댓글 조회하기|mysql||
+|23-10-10|O|SELECT|조건에 맞는 도서 리스트 출력하기|mysql||
+|23-10-10|X|SELECT|평균 일일 대여 요금 구하기|mysql|AVG, ROUND|
+|23-10-10|X|STRING, DATE|자동차 대여 기록에서 장기/단기 대여 구분하기|mysql|IF, DATEDIFF, WHENCASE|
+|23-10-10|O|STRING, DATE|특정 옵션이 포함된 자동차 리스트 구하기|mysql|INSTR, REGEXP|
+|23-10-15|X|SELECT|조건에 부합하는 중고거래 댓글 조회하기|mysql|JOIN|
