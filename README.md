@@ -27,6 +27,20 @@
 |23-10-09|X|SELECT|과일로 만든 아이스크림 고르기|서브 쿼리, INNER JOIN|
 |23-10-10|O|SELECT|조건에 맞는 도서 리스트 출력하기||
 |23-10-10|X|SELECT|평균 일일 대여 요금 구하기|AVG, ROUND|
-|23-10-10|X|STRING, DATE|자동차 대여 기록에서 장기/단기 대여 구분하기|IF, DATEDIFF, WHENCASE|
+|23-10-10|X|STRING, DATE|자동차 대여 기록에서 장기/단기 대여 구분하기|IF, DATEDIFF, CASE|
 |23-10-10|O|STRING, DATE|특정 옵션이 포함된 자동차 리스트 구하기|INSTR, REGEXP|
 |23-10-15|X|SELECT|조건에 부합하는 중고거래 댓글 조회하기|JOIN|
+
+### Lv. 2
+|날짜|정답|문법|유형|비고|
+|:---:|:---:|:---:|:---:|:---:|
+|23-11-12|O|SUM,MAX,MIN|최솟값 구하기|MIN, LIMIT|
+|23-11-12|O|GROUP BY|고양이와 개는 몇 마리 있을까|COUNT, GROUP BY|
+|23-11-12|O|GROUP BY|동명 동물 수 맞추기|COUNT, GROUP BY, HAVING|
+|23-11-12|O|STRING, DATE|루시와 엘라 찾기|IN|
+|23-11-12|O|STRING, DATE|이름에 el이 들어가는 동물 찾기|LIKE|
+|23-11-12|O|SUM,MAX,MIN|동물 수 구하기|COUNT|
+|23-11-12|O|SUM,MAX,MIN|중복 제거하기|COUNT, DISTINCT|
+|23-11-12|X|STRING, DATE|중성화 여부 파악하기|IF, CASE|
+|23-11-12|O|IS NULL|NULL 처리하기|IFNULL, COALESCE|
+|23-11-12|O|GROUP BY|입양 시간 구하기|HOUR(DATE)|
