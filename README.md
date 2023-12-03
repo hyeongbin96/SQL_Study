@@ -46,3 +46,9 @@
 |23-11-12|X|STRING, DATE|중성화 여부 파악하기|IF, CASE|
 |23-11-12|O|IS NULL|NULL 처리하기|IFNULL, COALESCE|
 |23-11-12|O|GROUP BY|입양 시간 구하기|HOUR(DATE)|
+|23-11-21|O|STRING, DATE|DATETIME에서 형 변환|DATE_FROMAT|
+|23-11-21|O|SUM. MAX, MIN|가격이 제일 비싼 식품의 정보 출력하기|MAX, 서브쿼리|
+|23-11-21|O|SELECT|3월에 태어난 여성 회원 목록 출력하기|IS NOT NULL|
+|23-11-21|X|STRING, DATE|카테고리 별 상품 개수 구하기|LEFT, GROUP BY|
+|23-11-21|X|GROUP BY|가격대 별 상품 개수 구하기|FLOOR, TRUNCATE|
+|23-11-21|O|SELECT|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|
