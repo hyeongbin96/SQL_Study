@@ -52,3 +52,11 @@
 |23-11-21|X|STRING, DATE|카테고리 별 상품 개수 구하기|LEFT, GROUP BY|
 |23-11-21|X|GROUP BY|가격대 별 상품 개수 구하기|FLOOR, TRUNCATE|
 |23-11-21|O|SELECT|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|
+
+|23-12-03|O|GROUP BY|진료과별 총 예약 횟수 출력하기|GROUP BY|
+|23-12-03|O|GROUP BY|성분으로 구분한 아이스크림 총 주문량|GROUP BY|
+|23-12-03|O|GROUP BY|자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기|GROUP BY, LIKE|
+|23-12-03|X|STRING, DATE|자동차 평균 대여 기간 구하기|ROUND, AVG, DATEDIFF|
+|23-12-03|O|STRING, DATE|조건에 부합하는 중고거래 상태 조회하기|CASE WHEN|
+|23-12-03||JOIN|상품 별 오프라인 매출 구하기||
+|23-12-03||JOIN|조건에 맞는 도서와 저자 리스트 출력하기||
