@@ -56,7 +56,7 @@
 |23-12-03|O|GROUP BY|진료과별 총 예약 횟수 출력하기|GROUP BY|
 |23-12-03|O|GROUP BY|성분으로 구분한 아이스크림 총 주문량|GROUP BY|
 |23-12-03|O|GROUP BY|자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기|GROUP BY, LIKE|
-|23-12-03|X|STRING, DATE|자동차 평균 대여 기간 구하기|ROUND, AVG, DATEDIFF|
-|23-12-03|O|STRING, DATE|조건에 부합하는 중고거래 상태 조회하기|CASE WHEN|
-|23-12-03||JOIN|상품 별 오프라인 매출 구하기||
-|23-12-03||JOIN|조건에 맞는 도서와 저자 리스트 출력하기||
+|23-12-05|X|STRING, DATE|자동차 평균 대여 기간 구하기|ROUND, AVG, DATEDIFF|
+|23-12-05|O|STRING, DATE|조건에 부합하는 중고거래 상태 조회하기|CASE WHEN|
+|||JOIN|상품 별 오프라인 매출 구하기||
+|||JOIN|조건에 맞는 도서와 저자 리스트 출력하기||
