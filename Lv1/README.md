@@ -1,4 +1,4 @@
-# SQL 공부
+# SQL 스터디
 📌 프로그래머스 SQL Lv 1<br>
 📌 MYSQL
 
